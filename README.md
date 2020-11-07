@@ -1,2 +1,0 @@
-# ASIA_AR_Midterm_107051056
- ASIA_AR_Midterm_107051056
