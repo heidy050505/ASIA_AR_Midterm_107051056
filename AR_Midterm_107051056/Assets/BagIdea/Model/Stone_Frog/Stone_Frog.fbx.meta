@@ -107,7 +107,7 @@ ModelImporter:
     second: Action
   - first:
       74: 7400002
-    second: Idle
+    second: "\u77F3\u982D\u86D9\u7B49\u5F85"
   - first:
       74: 7400004
     second: Attack1
@@ -119,7 +119,7 @@ ModelImporter:
     second: Walk
   - first:
       74: 7400010
-    second: Run
+    second: "\u77F3\u982D\u86D9\u8DD1\u6B65"
   - first:
       74: 7400012
     second: Take Damage1
@@ -131,7 +131,7 @@ ModelImporter:
     second: Take Damage2
   - first:
       74: 7400018
-    second: Attack Stun
+    second: "\u77F3\u982D\u86D9\u653B\u64CA"
   - first:
       74: 7400020
     second: Turn Right
@@ -140,7 +140,7 @@ ModelImporter:
     second: Turn Left
   - first:
       74: 7400024
-    second: Death
+    second: "\u77F3\u982D\u86D9\u6B7B\u4EA1"
   - first:
       95: 9500000
     second: //RootNode
@@ -150,7 +150,12 @@ ModelImporter:
   - first:
       137: 13700000
     second: Golem_mesh
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Golem_surf
+    second: {fileID: 2100000, guid: 208b0b5c21090244ba6fa63a2912c9bf, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -170,7 +175,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -238,7 +243,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
+      name: "\u77F3\u982D\u86D9\u7B49\u5F85"
       takeName: Base Stack
       internalID: 0
       firstFrame: 0
@@ -474,7 +479,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Run
+      name: "\u77F3\u982D\u86D9\u8DD1\u6B65"
       takeName: Base Stack
       internalID: 0
       firstFrame: 155
@@ -485,7 +490,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -710,7 +715,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Attack Stun
+      name: "\u77F3\u982D\u86D9\u653B\u64CA"
       takeName: Base Stack
       internalID: 0
       firstFrame: 220
@@ -887,7 +892,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Death
+      name: "\u77F3\u982D\u86D9\u6B7B\u4EA1"
       takeName: Base Stack
       internalID: 0
       firstFrame: 175
@@ -998,11 +1003,11 @@ ModelImporter:
     globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
