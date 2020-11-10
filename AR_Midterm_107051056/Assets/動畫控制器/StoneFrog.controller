@@ -62,13 +62,13 @@ AnimatorStateMachine:
     m_Position: {x: 220, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9182174894425860501}
-    m_Position: {x: 220, y: 220, z: 0}
+    m_Position: {x: 220, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1021518963269279925}
     m_Position: {x: 220, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1200727139179134720}
-    m_Position: {x: 190, y: 280, z: 0}
+    m_Position: {x: 220, y: 220, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 6999524715790366753}
@@ -146,7 +146,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\u6B7B\u4EA1"
+  - m_Name: "\u7FFB\u6EFE"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -280,7 +280,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u6B7B\u4EA1"
+    m_ConditionEvent: "\u7FFB\u6EFE"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9182174894425860501}

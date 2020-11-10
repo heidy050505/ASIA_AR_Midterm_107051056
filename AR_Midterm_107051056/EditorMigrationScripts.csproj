@@ -263,14 +263,14 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>D:/unity/2019.4.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
     <Reference Include="Vuforia.UnityExtensions.Editor">
       <HintPath>D:/大三上作業/實驗遊戲設計/ASIA_AR_Midterm_107051056/AR_Midterm_107051056/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>D:/大三上作業/實驗遊戲設計/ASIA_AR_Midterm_107051056/AR_Midterm_107051056/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/大三上作業/實驗遊戲設計/ASIA_AR_Midterm_107051056/AR_Midterm_107051056/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
